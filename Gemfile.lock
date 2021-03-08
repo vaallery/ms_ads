@@ -1,0 +1,85 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activesupport (6.1.3)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (>= 1.6, < 2)
+      minitest (>= 5.1)
+      tzinfo (~> 2.0)
+      zeitwerk (~> 2.3)
+    addressable (2.7.0)
+      public_suffix (>= 2.0.2, < 5.0)
+    capybara (3.35.3)
+      addressable
+      mini_mime (>= 0.1.3)
+      nokogiri (~> 1.8)
+      rack (>= 1.6.0)
+      rack-test (>= 0.6.3)
+      regexp_parser (>= 1.5, < 3.0)
+      xpath (~> 3.2)
+    concurrent-ruby (1.1.8)
+    erubi (1.10.0)
+    ffi (1.15.0)
+    i18n (1.8.9)
+      concurrent-ruby (~> 1.0)
+    jsonapi-serializer (2.1.0)
+      activesupport (>= 4.2)
+    mini_mime (1.0.2)
+    mini_portile2 (2.5.0)
+    minitest (5.14.4)
+    minitest-global_expectations (1.0.1)
+      minitest (> 5)
+    minitest-hooks (1.5.0)
+      minitest (> 5.3)
+    nokogiri (1.11.1)
+      mini_portile2 (~> 2.5.0)
+      racc (~> 1.4)
+    pg (1.2.3)
+    public_suffix (4.0.6)
+    racc (1.5.2)
+    rack (2.2.3)
+    rack-test (1.1.0)
+      rack (>= 1.0, < 3)
+    rack-unreloader (1.7.0)
+    refrigerator (1.3.0)
+    regexp_parser (2.1.1)
+    roda (3.41.0)
+      rack
+    sassc (2.4.0)
+      ffi (~> 1.9)
+    sequel (5.42.0)
+    sequel-annotate (1.6.0)
+      sequel (>= 4)
+    sequel_pg (1.14.0)
+      pg (>= 0.18.0, != 1.2.0)
+      sequel (>= 4.38.0)
+    tilt (2.0.10)
+    tzinfo (2.0.4)
+      concurrent-ruby (~> 1.0)
+    warning (1.2.0)
+    xpath (3.2.0)
+      nokogiri (~> 1.8)
+    zeitwerk (2.4.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  capybara
+  erubi (>= 1.5)
+  jsonapi-serializer
+  minitest (>= 5.7.0)
+  minitest-global_expectations
+  minitest-hooks (>= 1.1.0)
+  rack-unreloader
+  refrigerator (>= 1)
+  roda (>= 3.19)
+  sassc (>= 2)
+  sequel (>= 5)
+  sequel-annotate
+  sequel_pg (>= 1.8)
+  tilt (>= 2.0.9)
+  warning
+
+BUNDLED WITH
+   2.2.0.rc.2
